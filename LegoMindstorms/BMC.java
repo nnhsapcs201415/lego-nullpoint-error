@@ -1,15 +1,16 @@
 import lejos.nxt.Button;
 import lejos.nxt.LCD;
 import lejos.nxt.Motor;
-public class BasicMovementControls{
+public class BMC{
     public static void main (String args[]){
         LCD.drawString("Program 1", 0, 0);
         Button.waitForAnyPress();
+        LCD.clear();
         Motor.A.forward();
-        System.out.println("FORWARD");
+        LCD.drawString("FORWARD", 0, 0);
         Button.waitForAnyPress();
         Motor.A.backward();
-        System.out.println("BACKWARD");
+        LCD.drawString("BACKWARD", 0, 0);
         Button.waitForAnyPress();
         Motor.A.stop();
     }
