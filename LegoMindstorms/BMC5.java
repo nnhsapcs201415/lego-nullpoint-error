@@ -2,6 +2,7 @@ import lejos.nxt.Button;
 import lejos.nxt.LCD;
 import lejos.nxt.Motor;
 import lejos.util.Delay;
+import lejos.robotics.navigation;
 public class BMC5{
     public static void main (String args[]){
         LCD.drawString("Program 5",0 ,0);
