@@ -14,8 +14,4 @@ public class UltrasonicSense implements FeatureListener {
     public void featureDetected(Feature feature, FeatureDetector detector) {
         int range = (int)feature.getRangeReading().getRange();
     }
-    public int getDetected()
-    {
-        return featureDetected(feature, detector6te5q   q   t )
-    }
 }

@@ -10,6 +10,6 @@ public class TouchSense implements FeatureListener {
         fd.addListener(listener);
     }
     public void featureDetected(Feature feature, FeatureDetector detector) {
-        fea
+        
     }
 }
